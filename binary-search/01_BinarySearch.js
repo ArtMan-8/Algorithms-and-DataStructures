@@ -1,22 +1,26 @@
-var sortedArray = [1, 3, 5, 7, 8, 10];
-var targetValue = 3;
+var sortedArray = [1, 2, 4, 5, 5, 8, 14, 15, 20];
+var targetValue = 16;
 
 function binarySearch (array, value) {
-    let min = 0;
-    let max = array.length-1;
+    let first = 0;
+    let last = array.length-1;
 
-    while (min <= max) {
-        let mid = Math.floor((min + max) / 2);
-        console.log(min + ' ' + max + ' | ' + mid);
+    while (first <= last) {
+        let mid = Math.floor(first + (last - first) / 2);
+        
+        //для просмотра изменнеий на каждом шаге поиска
+        //console.log(first + ' ' + last + ' | ' + mid);
+        
         if (value === array[mid]) {
             return console.log('Искомое число ' + value + ', на позиции ' + mid);
         } else if (value < array[mid]) {
-            max = mid;
+            last = mid - 1;
         } else {
-            min = mid;
+            first = mid + 1;
         }
-
     }
+
+    return console.log('Искомое число ' + value + ', не найдено')
 }
 
 binarySearch(sortedArray, targetValue);
