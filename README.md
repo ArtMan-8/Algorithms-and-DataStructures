@@ -6,5 +6,5 @@
 > **Грокнуть** - полное постижение чего-либо в результате глубокого целостного исследования(иначе разобраться, глубоко понять).
 
 ## Содержание
-- [бинарный/двоичный поиск](https://github.com/ArtMan-8/grokking-algorithms/tree/master/binary-search)
 - [линейный/последовательный поиск](https://github.com/ArtMan-8/grokking-algorithms/tree/master/linear-search)
+- [бинарный/двоичный поиск](https://github.com/ArtMan-8/grokking-algorithms/tree/master/binary-search)
