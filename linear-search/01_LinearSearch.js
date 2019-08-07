@@ -1,24 +1,13 @@
-var sortedArray = [1, 2, 4, 5, 5, 8, 14, 15, 20];
-var targetValue = 16;
+var unsortedArray = [1, 21, 5, 17, 19, 2, 14, 10, 23];
+var targetValue = 23;
 
-function binarySearch (array, value) {
-    let first = 0;
-    let last = array.length-1;
-
-    while (first <= last) {
-        let mid = Math.floor(first + (last - first) / 2);
-        
-        //для просмотра изменнеий на каждом шаге поиска
-        //console.log(first + ' ' + last + ' | ' + mid);
-        
-        if (value === array[mid]) {
-            return console.log('Искомое число ' + value + ', на позиции ' + mid);
-        } else if (value < array[mid]) {
-            last = mid - 1;
-        } else {
-            first = mid + 1;
+function linearSearch (array, value) {
+    for (let i = 0; i < array.length; i++) {
+        if (value === array[i]) {
+            return console.log('Искомое число ' + value + ', на позиции ' + i);
         }
     }
+    return console.log('Искомое число ' + value + ', не найдено');
 }
 
-binarySearch(sortedArray, targetValue);
+linearSearch(unsortedArray, targetValue);
