@@ -8,3 +8,4 @@
 ## Содержание
 - [линейный/последовательный поиск](https://github.com/ArtMan-8/grokking-algorithms/tree/master/linear-search)
 - [бинарный/двоичный поиск](https://github.com/ArtMan-8/grokking-algorithms/tree/master/binary-search)
+- [сортировка выбором](https://github.com/ArtMan-8/grokking-algorithms/tree/master/selection-search)
