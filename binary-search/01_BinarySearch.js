@@ -9,7 +9,7 @@ function binarySearch (array, value) {
         let mid = Math.floor(first + (last - first) / 2);
         
         //для просмотра изменнеий на каждом шаге поиска
-        //console.log(first + ' ' + last + ' | ' + mid);
+        console.log(first + ' ' + last + ' | ' + mid);
         
         if (value === array[mid]) {
             return console.log('Искомое число ' + value + ', на позиции ' + mid);
