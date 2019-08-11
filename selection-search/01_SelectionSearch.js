@@ -1,6 +1,6 @@
 var unsortedArray = [1, 21, 5, 17, 19, 2, 14, 10, 23];
 
-function selectionSearch (array) {
+function selectionSearch(array) {
     for (let min = 0; min < array.length - 1; min++) {
         let least = min;
 

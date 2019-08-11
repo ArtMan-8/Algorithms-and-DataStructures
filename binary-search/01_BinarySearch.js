@@ -1,7 +1,7 @@
 var sortedArray = [1, 2, 4, 5, 5, 8, 14, 15, 20];
 var targetValue = 16;
 
-function binarySearch (array, value) {
+function binarySearch(array, value) {
     let first = 0;
     let last = array.length-1;
 
