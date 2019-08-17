@@ -4,10 +4,10 @@ function recursionCountdown(n) {
     //base case
     if (n === 0) {
         return;
-    } //recursion case
-    else {
-        recursionCountdown(n - 1);
     }
+    
+    //recursion case
+    recursionCountdown(n - 1);
 }
 
 recursionCountdown(5);

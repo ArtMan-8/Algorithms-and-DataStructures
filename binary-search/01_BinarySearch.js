@@ -1,5 +1,5 @@
-var sortedArray = [1, 2, 4, 5, 5, 8, 14, 15, 20];
-var targetValue = 16;
+let sortedArray = [1, 2, 4, 5, 5, 8, 14, 15, 20];
+let targetValue = 16;
 
 function binarySearch(array, value) {
     let first = 0;
