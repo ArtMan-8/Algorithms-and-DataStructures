@@ -8,11 +8,11 @@ function quickSort(array) {
 
     //делим текущий массив пополам, и определяем опорный элемент
     let pivot = Math.floor(array.length / 2);
-
+    console.log('Опорный элемент ' + array[pivot]);
+   
     //объявляем два массива для элементов меньше и больше опорного
     let less = [];
     let greater = [];
-    console.log('Опорный элемент ' + array[pivot]);
 
     for (let i = 0; i < array.length; i++) {
         if (i === pivot) continue;
