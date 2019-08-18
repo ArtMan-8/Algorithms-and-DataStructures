@@ -1,4 +1,4 @@
-var unsortedArray = [1, 21, 5, 17, 19, 2, 14, 10, 23];
+let unsortedArray = [1, 21, 5, 17, 19, 2, 14, 10, 23];
 
 function selectionSort(array) {
     for (let min = 0; min < array.length - 1; min++) {
