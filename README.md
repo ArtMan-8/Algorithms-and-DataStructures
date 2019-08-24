@@ -12,3 +12,4 @@
 - [бинарный/двоичный поиск](https://github.com/ArtMan-8/grokking-algorithms/tree/master/binary-search)
 - [сортировка выбором](https://github.com/ArtMan-8/grokking-algorithms/tree/master/selection-search)
 - [рекурсия](https://github.com/ArtMan-8/grokking-algorithms/tree/master/recursion)
+- [алгоритм Евклида](https://github.com/ArtMan-8/grokking-algorithms/tree/master/euclidean-algorithm)
