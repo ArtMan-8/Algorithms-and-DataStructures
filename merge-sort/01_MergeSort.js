@@ -1,6 +1,6 @@
 let unsortedArray = [1, 21, 5, 17, 19, 2, 14, 10, 23];
 
-function quickSort(array) {
+function mergeSort(array) {
     console.log('Массив на входе ' + array);
     if (array.length <= 1) {
         return array;
@@ -27,7 +27,7 @@ function quickSort(array) {
 
     let sortedArray = [];
     console.log('------------------');
-    return sortedArray.concat(quickSort(less), array[pivot], quickSort(greater));
+    return sortedArray.concat(mergeSort(less), array[pivot], mergeSort(greater));
 }
 
-console.log('Сортированный массив ' + quickSort(unsortedArray));
+console.log('Сортированный массив ' + mergeSort(unsortedArray));
