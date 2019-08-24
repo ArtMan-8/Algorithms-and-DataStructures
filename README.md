@@ -11,6 +11,6 @@
 - [линейный/последовательный поиск](https://github.com/ArtMan-8/grokking-algorithms/tree/master/linear-search)
 - [бинарный/двоичный поиск](https://github.com/ArtMan-8/grokking-algorithms/tree/master/binary-search)
 - [сортировка выбором](https://github.com/ArtMan-8/grokking-algorithms/tree/master/selection-search)
-- [быстрая сортировка](https://github.com/ArtMan-8/grokking-algorithms/tree/master/quick-sort)
+- [сортировка слиянием](https://github.com/ArtMan-8/grokking-algorithms/tree/master/merge-sort)
 - [рекурсия](https://github.com/ArtMan-8/grokking-algorithms/tree/master/recursion)
 - [алгоритм Евклида](https://github.com/ArtMan-8/grokking-algorithms/tree/master/euclidean-algorithm)
