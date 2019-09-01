@@ -15,3 +15,4 @@
 - [быстрая сортировка](https://github.com/ArtMan-8/grokking-algorithms/tree/master/quick-sort)
 - [рекурсия](https://github.com/ArtMan-8/grokking-algorithms/tree/master/recursion)
 - [алгоритм Евклида](https://github.com/ArtMan-8/grokking-algorithms/tree/master/euclidean-algorithm)
+- [хеш-таблицы](https://github.com/ArtMan-8/grokking-algorithms/tree/master/hash-tables)
