@@ -1,7 +1,11 @@
 let sortedArray = [1, 2, 4, 5, 5, 8, 14, 15, 20];
-let targetValue = 16;
+let targetValue = 20;
 
 function binarySearch(array, value) {
+    console.log('Массив на входе ' + array);
+    console.log('Искомое число - ' + value);
+    console.log('----------------');
+
     let first = 0;
     let last = array.length-1;
 
@@ -9,10 +13,10 @@ function binarySearch(array, value) {
         let mid = Math.floor(first + (last - first) / 2);
         
         //для просмотра изменнеий на каждом шаге поиска
-        console.log(first + ' ' + last + ' | ' + mid);
+        console.log('Начальный индекс - ' + first + ', конечный индекс - ' + last + ' | ' + mid + ' - срединный индекс');
         
         if (value === array[mid]) {
-            return console.log('Искомое число ' + value + ', на позиции ' + mid);
+            return console.log('Искомое число ' + value + ', под индексом ' + mid);
         } else if (value < array[mid]) {
             last = mid - 1;
         } else {
