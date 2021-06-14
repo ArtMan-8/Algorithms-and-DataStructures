@@ -1,0 +1,35 @@
+{
+  "name": "algorithms-and-datastructures",
+  "version": "0.1.0",
+  "description": "Алгоритмы и структуры данных",
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "javascript"
+  ],
+  "author": "Vladimir Artyukhov",
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ./src/**",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "jest": "^27.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtMan-8/Algorithms-and-DataStructures.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArtMan-8/Algorithms-and-DataStructures/issues"
+  },
+  "homepage": "https://github.com/ArtMan-8/Algorithms-and-DataStructures#readme"
+}
