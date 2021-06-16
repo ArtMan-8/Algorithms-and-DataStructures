@@ -10,9 +10,4 @@ describe("Linear Search", () => {
     const unSortedArray = ["a", "b", "h", "t", "v", "c"];
     expect(linearSearch(unSortedArray, "t")).toEqual(3);
   });
-
-  it("should search non-existent value", () => {
-    const unSortedArray = ["a", 4, "h", "t", 1, "c"];
-    expect(linearSearch(unSortedArray, 0)).toBeNull();
-  });
 });
