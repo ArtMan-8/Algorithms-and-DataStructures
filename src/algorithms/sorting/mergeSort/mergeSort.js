@@ -1,3 +1,9 @@
+/**
+ * Merge array
+ * @param {Array} left
+ * @param {Array} right
+ * @returns {Array}
+ */
 function merge(left, right) {
   const sortedArray = [];
 
@@ -10,6 +16,11 @@ function merge(left, right) {
   return [...sortedArray, ...left, ...right];
 }
 
+/**
+ * Merge sort
+ * @param {Array} unSortedArray
+ * @returns {Array}
+ */
 export default function mergeSort(unSortedArray) {
   if (unSortedArray.length <= 1) {
     return unSortedArray;
