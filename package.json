@@ -9,7 +9,6 @@
   ],
   "author": "Vladimir Artyukhov",
   "license": "MIT",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "lint": "eslint ./src/**",
