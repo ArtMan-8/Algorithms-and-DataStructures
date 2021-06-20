@@ -1,12 +1,14 @@
 /**
- * Recursion Factorial
+ * Factorial
  * @param {number} number
  * @returns {number}
  */
 export default function factorial(number) {
-  if (number === 0) {
-    return 1;
+  let result = 1;
+
+  while (number > 0) {
+    result *= number--;
   }
 
-  return number * factorial(number - 1);
+  return result;
 }
