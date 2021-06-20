@@ -15,11 +15,9 @@ export default function binarySearch(sortedArray, searchValue) {
       return middleIndex;
     }
 
-    if (searchValue < sortedArray[middleIndex]) {
-      lastIndex = middleIndex - 1;
-    } else {
-      firstIndex = middleIndex + 1;
-    }
+    searchValue < sortedArray[middleIndex]
+      ? (lastIndex = middleIndex - 1)
+      : (firstIndex = middleIndex + 1);
   }
 
   return null;
