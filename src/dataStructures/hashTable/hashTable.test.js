@@ -1,7 +1,7 @@
 import HashTableSimple from "./hashTableSimple";
 
 describe("Hash Table", () => {
-  describe("Simple", () => {
+  describe("Simple, from book Grokking Algorithms", () => {
     const ht = new HashTableSimple();
     beforeEach(() => {
       ht.clear();
