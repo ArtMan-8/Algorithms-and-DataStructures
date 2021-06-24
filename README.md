@@ -1,18 +1,51 @@
-# Грокаем алгоритмы
-Решение алгоритмических задач из книги "Грокаем Алгоритмы" Адитьи Бхаргава (grokking algorithms
-) на JavaScript.
-> **Алгоритм** — набор инструкций, описывающих порядок действий исполнителя для достижения результата решения задачи за конечное число действий. Многие такие задачи уже описаны. За подробностями можно обратиться к книгам "Искусство программирования" Дональда Кнута.
+# Алгоритмы и структуры данных
 
-> **Грокнуть** - полное постижение чего-либо в результате глубокого целостного исследования(иначе разобраться, глубоко понять).
+> **Алгоритм** — совокупность точных правил решения некоторого класса задач или набор инструкций, описывающих порядок действий исполнителя для решения некоторой задачи.
+
+> **Структура данных** - программная единица, позволяющая хранить и обрабатывать множество однотипных и/или логически связанных данных в вычислительной технике. Для работы с данными внутри структуры, сама стрктура данных предоставляет набор методов, интерфейс.
+
 ---
-Некоторый код содержит не обязательные переменные и дополнительный вывод в консоль, для лучшего понимание происходящего на каждом шаге выполнения кода.
 
 ## Содержание
-- [линейный/последовательный поиск](https://github.com/ArtMan-8/grokking-algorithms/tree/master/linear-search)
-- [бинарный/двоичный поиск](https://github.com/ArtMan-8/grokking-algorithms/tree/master/binary-search)
-- [сортировка выбором](https://github.com/ArtMan-8/grokking-algorithms/tree/master/selection-search)
-- [сортировка слиянием](https://github.com/ArtMan-8/grokking-algorithms/tree/master/merge-sort)
-- [быстрая сортировка](https://github.com/ArtMan-8/grokking-algorithms/tree/master/quick-sort)
-- [рекурсия](https://github.com/ArtMan-8/grokking-algorithms/tree/master/recursion)
-- [алгоритм Евклида](https://github.com/ArtMan-8/grokking-algorithms/tree/master/euclidean-algorithm)
-- [хеш-таблицы](https://github.com/ArtMan-8/grokking-algorithms/tree/master/hash-tables)
+
+Решение алгоритмических задач из книги "Грокаем Алгоритмы" Адитьи Бхаргава (grokking algorithms) на JavaScript.
+
+- [линейный/последовательный поиск](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/search/linearSearch)
+- [бинарный/двоичный поиск](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/search/binary-search)
+
+- [сортировка выбором](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/sorting/selectionSort)
+- [сортировка слиянием](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/sorting/mergeSort)
+- [быстрая сортировка](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/sorting/quickSort)
+
+- [алгоритм Евклида / GCD](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/uncategorized/GCD)
+- [тасование Фишера–Йетса](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/uncategorized/fisherYates)
+- [факториал](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/uncategorized/factorial)
+
+- [Поиск в ширину / BFC](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/graph/BFC)
+- [алгоритм Дейкстры](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/graph/dijkstras)
+
+- [жадный алгоритм](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/sets/greedyAlgorithm)
+
+- [хеш-таблицы](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/dataStructures/hashTables)
+
+---
+
+## Как пользоваться
+
+### Установка зависимостей
+
+```bash
+$ npm install
+```
+
+### Проверка кода
+
+```bash
+$ npm run lint
+```
+
+### Запуск всех тестов в режими наблюдения
+
+```bash
+$ npm run test -- --watch
+```

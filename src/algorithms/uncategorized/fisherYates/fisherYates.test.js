@@ -1,4 +1,4 @@
-import { getSortedArray } from "../../utils";
+import { getSortedArray } from "../../../utils";
 import fisherYates from "./fisherYates";
 
 describe("Fisher–Yates shuffle", () => {
