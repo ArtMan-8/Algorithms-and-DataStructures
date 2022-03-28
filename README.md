@@ -21,7 +21,7 @@
 - [тасование Фишера–Йетса](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/uncategorized/fisherYates)
 - [факториал](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/uncategorized/factorial)
 
-- [Поиск в ширину / BFC](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/graph/BFC)
+- [Поиск в ширину / BFC](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/graph/BFS)
 - [алгоритм Дейкстры](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/graph/dijkstras)
 
 - [жадный алгоритм](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/sets/greedyAlgorithm)
