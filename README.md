@@ -26,7 +26,7 @@
 
 - [жадный алгоритм](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/sets/greedyAlgorithm)
 
-- [хеш-таблицы](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/dataStructures/hashTables)
+- [хеш-таблицы](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/dataStructures/hashTable)
 
 ---
 
