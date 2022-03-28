@@ -11,7 +11,7 @@
 Решение алгоритмических задач из книги "Грокаем Алгоритмы" Адитьи Бхаргава (grokking algorithms) на JavaScript.
 
 - [линейный/последовательный поиск](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/search/linearSearch)
-- [бинарный/двоичный поиск](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/search/binary-search)
+- [бинарный/двоичный поиск](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/search/binarySearch)
 
 - [сортировка выбором](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/sorting/selectionSort)
 - [сортировка слиянием](https://github.com/ArtMan-8/Algorithms-and-DataStructures/tree/master/src/algorithms/sorting/mergeSort)
